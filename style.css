@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+:root{
+    --color-rose: #9400d3;
+}
+
+header {
+
+    background-color: white;
+    width: 1250px;
+
+}
+
+.parte1{
+    margin: 0 75px
+}
+.cabecalho {
+    padding: 20px;
+    max-width: 100%;
+    
+}
+
+.cabecalho a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #423d3db7;
+    
+}
+
+.cabecalho a:hover{
+    color:var(--color-rose);
+}
+
+.cabecalho button{
+    margin-left:45px;  
+}
+
+button{
+    background-color:var(--color-rose);
+    width: 175px;
+    height: 45px;
+    border-radius: 24px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.conteudo{
+    margin: 15px 95px;
+
+}
+.conteudo p {
+    font-size: 50px;
+    max-width: 450px;
+}
+
+
+.conteudo h3 {
+    font-size: 24px;
+    max-width: 450px;
+    margin-top: 15px;
+}
+
+.conteudo button{
+    margin-top: 55px;
+    margin-left: 10px;
+}
+
+.conteudo img{
+    width: 400px;
+    margin-left: 650px;
+    margin-top: -350px;
+}
+
+.conteudo2{
+    margin-left: 95px;
+    margin-top: 98px;
+}
+
+.conteudo2 a{
+    text-decoration: none;
+    color:var(--color-rose);
+    font-size: 50px;
+}
+
+.conteudo2 a:hover{
+    text-decoration: underline;
+
+}
+
+.conteudo2 p{
+    font-size: 50px;
+    max-width: 450px;
+    margin-bottom: 45px;
+}
+
+.conteudo2 .two{
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+.conteudo2 img{
+    width: 650px;
+    margin-left: 450px;
+    margin-top: -350px;
+}
+.parte2{
+    height: 600px;
+    background-color: var(--color-rose);
+
+}
+.rewards{
+    padding-top: 245px;
+}
+
+.rewards{
+    background-color:var(--color-rose);
+}
+
+.rewards a{
+    font-size: 50px;
+    text-decoration: none;
+    color:violet;
+    margin-left: 95px;
+}
+
+.rewards a:hover{
+    text-decoration: underline;
+}
+
+
+.rewards p{
+    color: white;
+    font-size: 40px;
+    max-width: 350px;
+    margin-left: 95px;
+}
+
+.rewards .thre{
+    font-size: 25px;
+    padding-top: 25px;
+}
+
+.rewards img{
+    width: 400px;
+    margin-left: 450px;
+    margin-top: -350px;
+}
